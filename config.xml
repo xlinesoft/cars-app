@@ -19,4 +19,6 @@
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
 
+	<access origin="*" />
+	
 </widget>

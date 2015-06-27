@@ -32,7 +32,10 @@
 
     <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
     <script type="text/javascript" charset="utf-8">
-
+		document.addEventListener("deviceready", onDeviceReady, false); 
+		function onDeviceReady() {
+		// Now safe to use the Codova API
+		window.location="http://demo.asprunner.net/volinrok_yahoo_com/Project1/menu.php"; }
     </script>
   </head>
   <body id="body" >

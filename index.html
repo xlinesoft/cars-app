@@ -30,7 +30,10 @@
 
     <script type="text/javascript" src="phonegap.js"></script>
     <script type="text/javascript">
-		 window.location.href='http://demo.asprunner.net/volinrok_yahoo_com/Project1/menu.php';
+		 document.addEventListener("deviceready", function(){
+			window.location.href='http://demo.asprunner.net/volinrok_yahoo_com/Project1/menu.php';
+		});
+		 
     </script>
   </head>
   <body id="body" >
